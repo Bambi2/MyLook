@@ -1,17 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/white">
 
-    <TextView
+
+    <ImageView
+        android:id="@+id/top_bar"
         android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:text="Main Screen"
-        android:textSize="30sp"
-        android:layout_topInParent="true"
+        android:layout_height="160dp"
+        android:background="@drawable/top_bar_shape"
+        android:layout_alignParentTop="true"/>
 
-        android:background="@drawable/top_bar_shape"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/my_look"
+        android:id="@+id/mylook_text"
+        android:layout_alignParentTop="true"/>
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"/>
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/gray_background"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/gray_rec" />
+
+    <ImageView
+        android:id="@+id/tshirt_button"
+        android:layout_width="49dp"
+        android:layout_height="52dp"
+        android:background="@drawable/custom_button_main"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/pants_button"
+        android:layout_marginBottom="10dp"
+        />
+    <ImageView
+        android:id="@+id/pants_button"
+        android:layout_width="49dp"
+        android:layout_height="52dp"
+        android:background="@drawable/custom_button_main"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/costume_button"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/costume_button"
+        android:layout_width="49dp"
+        android:layout_height="52dp"
+        android:background="@drawable/custom_button_main"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/jacket_button"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/jacket_button"
+        android:layout_width="49dp"
+        android:layout_height="52dp"
+        android:background="@drawable/custom_button_main"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/glasses_button"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/glasses_button"
+        android:layout_width="49dp"
+        android:layout_height="52dp"
+        android:background="@drawable/custom_button_main"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/shoes_button"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/shoes_button"
+        android:layout_width="49dp"
+        android:layout_height="52dp"
+        android:background="@drawable/custom_button_main"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        />
 
 </RelativeLayout>
