@@ -9,15 +9,15 @@
         android:id="@+id/top_bar"
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        android:background="@drawable/top_bar_shape"
-        android:layout_alignParentTop="true"/>
+        android:layout_alignParentTop="true"
+        android:background="@drawable/top_bar_shape" />
 
     <ImageView
+        android:id="@+id/mylook_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/my_look"
-        android:id="@+id/mylook_text"
-        android:layout_alignParentTop="true"/>
+        android:layout_alignParentTop="true"
+        android:src="@drawable/my_look" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -37,59 +37,54 @@
         android:id="@+id/tshirt_button"
         android:layout_width="49dp"
         android:layout_height="52dp"
-        android:background="@drawable/custom_button_main"
-        android:layout_alignParentRight="true"
         android:layout_above="@+id/pants_button"
+        android:layout_alignParentRight="true"
         android:layout_marginBottom="10dp"
-        />
+        android:background="@drawable/custom_button_main" />
+
     <ImageView
         android:id="@+id/pants_button"
         android:layout_width="49dp"
         android:layout_height="52dp"
-        android:background="@drawable/custom_button_main"
-        android:layout_alignParentRight="true"
         android:layout_above="@id/costume_button"
+        android:layout_alignParentRight="true"
         android:layout_marginBottom="10dp"
-        />
+        android:background="@drawable/custom_button_main" />
 
     <ImageView
         android:id="@+id/costume_button"
         android:layout_width="49dp"
         android:layout_height="52dp"
-        android:background="@drawable/custom_button_main"
-        android:layout_alignParentRight="true"
         android:layout_above="@id/jacket_button"
+        android:layout_alignParentRight="true"
         android:layout_marginBottom="10dp"
-        />
+        android:background="@drawable/custom_button_main" />
 
     <ImageView
         android:id="@+id/jacket_button"
         android:layout_width="49dp"
         android:layout_height="52dp"
-        android:background="@drawable/custom_button_main"
-        android:layout_alignParentRight="true"
         android:layout_above="@+id/glasses_button"
+        android:layout_alignParentRight="true"
         android:layout_marginBottom="10dp"
-        />
+        android:background="@drawable/custom_button_main" />
 
     <ImageView
         android:id="@+id/glasses_button"
         android:layout_width="49dp"
         android:layout_height="52dp"
-        android:background="@drawable/custom_button_main"
-        android:layout_alignParentRight="true"
         android:layout_above="@+id/shoes_button"
+        android:layout_alignParentRight="true"
         android:layout_marginBottom="10dp"
-        />
+        android:background="@drawable/custom_button_main" />
 
     <ImageView
         android:id="@+id/shoes_button"
         android:layout_width="49dp"
         android:layout_height="52dp"
-        android:background="@drawable/custom_button_main"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="50dp"
-        />
+        android:background="@drawable/custom_button_main" />
 
 </RelativeLayout>

@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/black">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calendar Screen"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        android:src="@drawable/my_look"
+        android:id="@+id/mylook_text"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@id/calendar_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/calendar_text"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"/>
+
+    <CalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/calendar_text"/>
 
 </RelativeLayout>
