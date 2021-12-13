@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".ShkafButtons">
+
+    <ImageView
+        android:id="@+id/verh"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/mylook_text2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/roundrec" />
+
+    <ImageView
+        android:id="@+id/niz"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/mylook_text2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        app:srcCompat="@drawable/roundrec" />
+
+    <ImageView
+        android:id="@+id/slitnoe"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/verh"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/roundrec" />
+
+    <ImageView
+        android:id="@+id/verhnya"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/niz"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        app:srcCompat="@drawable/roundrec" />
+
+    <ImageView
+        android:id="@+id/obuv"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/slitnoe"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/roundrec" />
+
+    <ImageView
+        android:id="@+id/accsesories"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/verhnya"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60dp"
+        app:srcCompat="@drawable/roundrec" />
+
+    <ImageView
+        android:id="@+id/slitnoeimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/slitnoe"
+        android:layout_alignTop="@+id/slitnoe"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_kompl" />
+
+    <ImageView
+        android:id="@+id/verhimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/verh"
+        android:layout_alignTop="@+id/verh"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_futbolka" />
+
+    <ImageView
+        android:id="@+id/nizimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/niz"
+        android:layout_alignTop="@+id/niz"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_resource_short" />
+
+    <ImageView
+        android:id="@+id/verhyaimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/verhnya"
+        android:layout_alignTop="@+id/verhnya"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_tolstovka" />
+
+    <ImageView
+        android:id="@+id/obuvimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/obuv"
+        android:layout_alignTop="@+id/obuv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_asset_1__1_" />
+
+    <ImageView
+        android:id="@+id/accsesoriesimg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/accsesories"
+        android:layout_alignTop="@+id/accsesories"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_ochki" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verhimg"
+        android:layout_alignStart="@+id/verh"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Верх" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slitnoeimg"
+        android:layout_alignStart="@id/slitnoe"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Слитное" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verhyaimg"
+        android:layout_alignStart="@id/verhnya"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Верхняя" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/obuvimg"
+        android:layout_alignStart="@id/obuv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Обувь" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/accsesoriesimg"
+        android:layout_alignStart="@id/accsesories"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Аксессуары" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nizimg"
+        android:layout_alignStart="@id/niz"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Низ" />
+
+</RelativeLayout>
