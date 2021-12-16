@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NizList">
+    tools:context=".SlitnoeList">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
                 android:id="@+id/imageView3"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:src="@drawable/niz2"
+                android:src="@drawable/platye1"
                 app:layout_column="1"
                 app:layout_row="0" />
 
@@ -28,7 +28,7 @@
                 android:id="@+id/imageView2"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:src="@drawable/niz1"
+                android:src="@drawable/platye2"
                 app:layout_column="0"
                 app:layout_row="0" />
 
@@ -36,7 +36,7 @@
                 android:id="@+id/imageView4"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:src="@drawable/niz3"
+                android:src="@drawable/platye3"
                 app:layout_column="0"
                 app:layout_row="1" />
 
@@ -44,25 +44,9 @@
                 android:id="@+id/imageView5"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
-                android:src="@drawable/niz4"
+                android:src="@drawable/platye4"
                 app:layout_column="1"
                 app:layout_row="1" />
-
-            <ImageView
-                android:id="@+id/imageView6"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:src="@drawable/niz5"
-                app:layout_column="0"
-                app:layout_row="2" />
-
-            <ImageView
-                android:id="@+id/imageView7"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:src="@drawable/niz6"
-                app:layout_column="1"
-                app:layout_row="2" />
         </androidx.gridlayout.widget.GridLayout>
     </ScrollView>
 
